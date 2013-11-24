@@ -1,5 +1,5 @@
 {
     "require": {
-        "symfony/http-foundation": "v2.3.7"
+        "symfony/symfony": "~2.3"
     }
 }
