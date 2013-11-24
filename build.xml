@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<project name="symfony" default="dist">
+
+    <target name="dist" depends="symfony-dist" />
+
+    <target name="symfony-dist">
+        <ant antfile="symfony/build.xml" target="dist" useNativeBaseDir="true" />
+    </target>
+
+</project>

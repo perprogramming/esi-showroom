@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<project name="symfony" default="dist">
+
+    <target name="dist" depends="composer-install" />
+
+    <target name="composer-install">
+        <exec executable="composer">
+            <arg value="install" />
+        </exec>
+    </target>
+
+</project>

@@ -1,1 +1,4 @@
+.vagrant
+Berksfile.lock
 /.idea/workspace.xml
+/symfony/vendor
